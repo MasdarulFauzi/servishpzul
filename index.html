@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Servis HP Zul</title>
+
+    <!-- GOOGLE FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- css End -->
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav>
+      <div class="logo">Servis Hp <span>Zul</span></div>
+
+<!-- Hamburger button -->
+  <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+
+      <ul id="nav-links">
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#layanan">Layanan</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+        <li><a href="#lokasikami">Lokasi Kami</a></li>
+      </ul>
+    </nav>
+
+    <!-- Optional: overlay -->
+<div id="overlay"></div>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="beranda">
+      <h1>Selamat Datang Di Servis Hp Zul ,Servis HP Cepat Dan Murah</h1>
+      <button
+        class="btn-servis"
+        onclick="window.location.href='https://wa.me/6285361506327?text=Halo%20kak,%20saya%20ingin%20servis%20HP.'"
+      >
+        Servis Now
+      </button>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="services" id="layanan">
+      <h2>Layanan Kami</h2>
+      <div class="service-container">
+        <div class="service-box">
+          <h3>Ganti LCD</h3>
+          <p>Layar rusak atau pecah? Kami ganti dengan kualitas terbaik.</p>
+        </div>
+        <div class="service-box">
+          <h3>Ganti Baterai</h3>
+          <p>Baterai cepat habis? Coba ganti yang baru dan original.</p>
+        </div>
+        <div class="service-box">
+          <h3>Perbaikan Software</h3>
+          <p>Flash, reset, bypass, atau optimasi sistem.</p>
+        </div>
+        <div class="service-box">
+          <h3>Perbaikan Charging</h3>
+          <p>Port charger longgar atau tidak masuk? Bisa diperbaiki!</p>
+        </div>
+        <div class="service-box">
+          <h3>Ponsel mati total</h3>
+          <p>Layar tetap hitam meskipun Anda menekan tombol power berulang kali.</p>
+        </div>
+        <div class="service-box">
+          <h3>SIM card atau memory card tidak terbaca</h3>
+          <p>Kartu SIM tidak terbaca karena rusak fisik sering menjadi penyebab utama yang ganggu kesibukan.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="kontak">
+      <h2>Hubungi Kami</h2>
+      <p>Konsultasi gratis. Klik tombol di bawah untuk chat WA.</p>
+      <button class="btn-kontak" onclick="window.location.href='https://wa.me/6285361506327?text=Halo%20kak,%20saya%20ingin%20servis%20HP.'">
+        Chat WhatsApp
+      </button>
+</section>
+
+      <!-- LOCATION SECTION -->
+      <section id="lokasikami"
+        class="lokasi"
+        style=" background: #6c757d; padding-bottom: 50px;text-align: center;"
+        >
+        <h2><span>Lokasi</span> Kami</h2>
+        <p style="text-align: center; font-size: 16px; color: white">
+          Kunjungi kami di alamat:<br />
+          <b>Jl.Bambu Pasar IV Helvetia Gg.Minyak</b>
+        </p>
+
+        <div style="display: flex; justify-content: center; margin-top: 10px">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d248.86295493655268!2d98.66284598122368!3d3.6314348002363483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1763462898390!5m2!1sen!2sus"
+            width="90%"
+            height="300"
+            style="border: 0; border-radius: 10px"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+
+        <div style="text-align: center; margin-top: 10px; columns: 1">
+          <a
+            href="https://maps.app.goo.gl/NVvpbujq3a3RihgB9"
+            target="_blank"
+            style="
+              display: inline-block;
+              padding: 10px 15px;
+              background: #212529;
+              color: white;
+              border-radius: 8px;
+              text-decoration: none;
+            "
+          >
+            Buka di Google Maps
+          </a>
+        </div>
+      </section>
+      <!-- Maps End -->
+    </section>
+
+    <footer>© 2025 Servis Hp Zul - Development By @Masdarul Fauzi</footer>
+
+    <script src="data.js" />
+  </body>
+</html>
